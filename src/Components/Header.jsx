@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo.png"
 export default function Header() {
-    const isAuth = false;
+    const isAuth = true;
   return (
     <header>
       <Link to="/" className="logo">
